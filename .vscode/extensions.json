@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss",
+    "yzhang.markdown-all-in-one",
+    "shelex.vscode-cy-helper",
+    "stylelint.vscode-stylelint"
+  ],
+  "unwantedRecommendations": ["ms-vscode.vscode-typescript-tslint-plugin"]
+}
