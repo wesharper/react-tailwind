@@ -10,3 +10,4 @@
 
 - [ ] Attached a GIF/Screenshot
 - [ ] Added tests
+- [ ] Audited accessibility
