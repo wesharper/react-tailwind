@@ -10,6 +10,16 @@
   "files.associations": {
     "*.mdx": "mdx"
   },
-  "cSpell.words": ["heroicons", "hljs"],
+  "cSpell.words": [
+    "browserslist",
+    "Callouts",
+    "firebaseui",
+    "heroicons",
+    "hljs",
+    "prettierrc",
+    "tailwindcss",
+    "vite",
+    "vitejs"
+  ],
   "css.customData": [".vscode/css_custom_data.json"]
 }
