@@ -16,7 +16,9 @@
     "firebaseui",
     "heroicons",
     "hljs",
+    "honkhonk",
     "prettierrc",
+    "svgr",
     "tailwindcss",
     "vite",
     "vitejs"

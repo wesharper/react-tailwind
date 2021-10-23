@@ -1,19 +1,15 @@
 {
-  "name": "react-firebase-tailwind",
+  "name": "react-tailwind",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "start": "vite",
     "build": "tsc && vite build",
     "serve": "vite preview",
-    "test": "jest",
-    "eject": "react-scripts eject",
-    "firebase:emulate": "firebase emulators:start --import=./saved-data",
-    "firebase:emulate:save": "firebase emulators:start --export-on-exit=./saved-data --import=./saved-data"
+    "test": "jest"
   },
   "dependencies": {
     "@heroicons/react": "^1.0.4",
-    "firebase": "^8.4.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^5.2.0",
@@ -43,8 +39,6 @@
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-testing-library": "^3.10.1",
-    "firebase-tools": "^9.16.0",
-    "firebaseui": "^4.8.0",
     "husky": "^6.0.0",
     "jsdom": "^16.6.0",
     "msw": "^0.33.0",
