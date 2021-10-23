@@ -8,9 +8,7 @@
 
 ## Running the Application
 
-1. Start firebase emulators using `npm run firebase:emulate`.
-   - If you'd like to save test data that will persist after closing the emulator, use `npm run firebase:emulate:save`. This is convenient for seeding data, such as saving additional test user accounts for use in integration testing.
-1. Start the application using `npm run start`.
+1. Start the application locally using `npm start`.
 
 ## Testing
 
@@ -20,4 +18,4 @@ Be sure to read through the [react-testing-library docs](https://testing-library
 
 - MSW mocks can be found in `src/mocks`
 - Tests can be found next to their associated components
-- Run tests using `npm test`, but **_be sure to start the firebase emulators first_**
+- Run tests using `npm test`
