@@ -33,6 +33,7 @@
   "settings": {
     "react": {
       "version": "detect"
-    }
+    },
+    "import/extensions": [".js", ".jsx", ".ts", ".tsx"]
   }
 }
