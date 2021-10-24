@@ -19,7 +19,13 @@
     "jsx-a11y/anchor-is-valid": "off",
     "react/prop-types": "off",
     "@typescript-eslint/no-unused-vars": ["error"],
-    "no-console": "warn"
+    "no-console": "warn",
+    "import/no-unresolved": "off",
+    "import/order": "error",
+    "import/newline-after-import": "error",
+    "import/no-unassigned-import": "error",
+    "import/no-duplicates": "error",
+    "sort-imports": ["error", { "ignoreDeclarationSort": true, "allowSeparatedGroups": true }]
   },
   "globals": {
     "React": "writable"
