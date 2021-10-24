@@ -20,12 +20,14 @@
     "react/prop-types": "off",
     "@typescript-eslint/no-unused-vars": ["error"],
     "no-console": "warn",
+    // this is handled by tsconfig already and prevents us from having to setup aliases for eslint
     "import/no-unresolved": "off",
     "import/order": "error",
     "import/newline-after-import": "error",
     "import/no-unassigned-import": "error",
     "import/no-duplicates": "error",
-    "sort-imports": ["error", { "ignoreDeclarationSort": true, "allowSeparatedGroups": true }]
+    "sort-imports": ["error", { "ignoreDeclarationSort": true, "allowSeparatedGroups": true }],
+    "sort-keys": "error"
   },
   "globals": {
     "React": "writable"
